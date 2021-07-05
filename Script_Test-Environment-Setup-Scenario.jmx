@@ -33,146 +33,175 @@
               <stringProp name="Argument.name">CMC_ENDPOINT</stringProp>
               <stringProp name="Argument.value">xxx.cmc.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">CMCエンドポイント</stringProp>
             </elementProp>
             <elementProp name="CMC_PATH" elementType="Argument">
               <stringProp name="Argument.name">CMC_PATH</stringProp>
               <stringProp name="Argument.value">/api/token</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">CMCトークンパス</stringProp>
             </elementProp>
             <elementProp name="SERVER_PORT" elementType="Argument">
               <stringProp name="Argument.name">SERVER_PORT</stringProp>
               <stringProp name="Argument.value">443</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">ホストのポート</stringProp>
             </elementProp>
             <elementProp name="CLIENT_ID" elementType="Argument">
               <stringProp name="Argument.name">CLIENT_ID</stringProp>
               <stringProp name="Argument.value">***</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">credentials.jsonのclient_id情報</stringProp>
             </elementProp>
             <elementProp name="CLIENT_SECRET" elementType="Argument">
               <stringProp name="Argument.name">CLIENT_SECRET</stringProp>
               <stringProp name="Argument.value">***</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">credentials.jsonのclient_secret情報</stringProp>
             </elementProp>
             <elementProp name="CMC_USER" elementType="Argument">
               <stringProp name="Argument.name">CMC_USER</stringProp>
               <stringProp name="Argument.value">admin</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">CMCのログインユーザー</stringProp>
             </elementProp>
             <elementProp name="CMC_PASSWORD" elementType="Argument">
               <stringProp name="Argument.name">CMC_PASSWORD</stringProp>
               <stringProp name="Argument.value">***</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">CMCのログインパスワード</stringProp>
             </elementProp>
             <elementProp name="APIM_ENDPOINT" elementType="Argument">
               <stringProp name="Argument.name">APIM_ENDPOINT</stringProp>
               <stringProp name="Argument.value">xxx.apim.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">APIMエンドポイント</stringProp>
             </elementProp>
             <elementProp name="APIM_USER" elementType="Argument">
               <stringProp name="Argument.name">APIM_USER</stringProp>
               <stringProp name="Argument.value">prv-org-owner</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織所有者のユーザーID</stringProp>
             </elementProp>
             <elementProp name="APIM_PASSWORD" elementType="Argument">
               <stringProp name="Argument.name">APIM_PASSWORD</stringProp>
               <stringProp name="Argument.value">Passw0rd!</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織所有者のパスワード</stringProp>
             </elementProp>
             <elementProp name="APIM_FIRST_NAME" elementType="Argument">
               <stringProp name="Argument.name">APIM_FIRST_NAME</stringProp>
               <stringProp name="Argument.value">first</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織所有者のファーストネーム</stringProp>
             </elementProp>
             <elementProp name="APIM_LAST_NAME" elementType="Argument">
               <stringProp name="Argument.name">APIM_LAST_NAME</stringProp>
               <stringProp name="Argument.value">last</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織所有者のラストネーム</stringProp>
             </elementProp>
             <elementProp name="APIM_EMAIL" elementType="Argument">
               <stringProp name="Argument.name">APIM_EMAIL</stringProp>
               <stringProp name="Argument.value">prvorg-owner@jp.ibm.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織所有者のメールアドレス</stringProp>
             </elementProp>
             <elementProp name="PRV_ORG_NAME" elementType="Argument">
               <stringProp name="Argument.name">PRV_ORG_NAME</stringProp>
               <stringProp name="Argument.value">test-prv-org</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織名</stringProp>
             </elementProp>
             <elementProp name="PRV_ORG_TITLE" elementType="Argument">
               <stringProp name="Argument.name">PRV_ORG_TITLE</stringProp>
               <stringProp name="Argument.value">test provider org</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">プロバイダー組織タイトル</stringProp>
             </elementProp>
             <elementProp name="CATALOG_NAME" elementType="Argument">
               <stringProp name="Argument.name">CATALOG_NAME</stringProp>
               <stringProp name="Argument.value">test-catalog</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">カタログ名</stringProp>
             </elementProp>
             <elementProp name="CATALOG_TITLE" elementType="Argument">
               <stringProp name="Argument.name">CATALOG_TITLE</stringProp>
               <stringProp name="Argument.value">test catalog</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">カタログタイトル</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_USER" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_USER</stringProp>
               <stringProp name="Argument.value">consumer-user</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織所有者のユーザーID</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_PASSWORD" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_PASSWORD</stringProp>
               <stringProp name="Argument.value">Passw0rd!</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織所有者のパスワード</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_FIRST_NAME" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_FIRST_NAME</stringProp>
               <stringProp name="Argument.value">first</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織所有者のファーストネーム</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_LAST_NAME" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_LAST_NAME</stringProp>
               <stringProp name="Argument.value">last</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織所有者のラストネーム</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_EMAIL" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_EMAIL</stringProp>
               <stringProp name="Argument.value">consumer-user@jp.ibm.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織所有者のメールアドレス</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_ORG_NAME" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_ORG_NAME</stringProp>
               <stringProp name="Argument.value">test-consumer-org</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織名</stringProp>
             </elementProp>
             <elementProp name="CONSUMER_ORG_TITLE" elementType="Argument">
               <stringProp name="Argument.name">CONSUMER_ORG_TITLE</stringProp>
               <stringProp name="Argument.value">test consumer org</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">コンシューマー組織タイトル</stringProp>
             </elementProp>
             <elementProp name="APP_NAME" elementType="Argument">
               <stringProp name="Argument.name">APP_NAME</stringProp>
               <stringProp name="Argument.value">test-app</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">アプリケーション名</stringProp>
             </elementProp>
             <elementProp name="APP_TITLE" elementType="Argument">
               <stringProp name="Argument.name">APP_TITLE</stringProp>
               <stringProp name="Argument.value">test app</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">アプリケーションタイトル</stringProp>
             </elementProp>
             <elementProp name="APP_REDIRECT_URI" elementType="Argument">
               <stringProp name="Argument.name">APP_REDIRECT_URI</stringProp>
               <stringProp name="Argument.value">http://sample.com/redirect</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">アプリケーションのredirect_uri情報</stringProp>
             </elementProp>
             <elementProp name="GATEWAY_SERVICE_NAME" elementType="Argument">
               <stringProp name="Argument.name">GATEWAY_SERVICE_NAME</stringProp>
               <stringProp name="Argument.value">gatewayservice</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">GatewayService名</stringProp>
             </elementProp>
             <elementProp name="GATEWAY_ENDPOINT" elementType="Argument">
               <stringProp name="Argument.name">GATEWAY_ENDPOINT</stringProp>
               <stringProp name="Argument.value">xxx.gateway.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.desc">GatewayServiceエンドポイント</stringProp>
             </elementProp>
           </collectionProp>
         </Arguments>
