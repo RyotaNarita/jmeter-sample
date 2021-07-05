@@ -269,7 +269,7 @@ vars.put(&apos;access_token&apos;, token)</stringProp>
     &quot;email&quot;: &quot;${APIM_EMAIL}&quot;,&#xd;
     &quot;first_name&quot;: &quot;${APIM_FIRST_NAME}&quot;,&#xd;
     &quot;last_name&quot;: &quot;${APIM_LAST_NAME}&quot;,&#xd;
-    &quot;user_registry_url&quot;: &quot;https://admin.apic-demo.com/api/user-registries/admin/api-manager-lur&quot;&#xd;
+    &quot;user_registry_url&quot;: &quot;https://${CMC_ENDPOINT}/api/user-registries/admin/api-manager-lur&quot;&#xd;
 }</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
@@ -532,7 +532,7 @@ vars.put(&apos;access_token&apos;, token)</stringProp>
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.value">{&#xd;
-	&quot;gateway_service_url&quot;:&quot;https://manager.apic-demo.com/api/orgs/${PRV_ORG_NAME}/gateway-services/${GATEWAY_SERVICE_NAME}&quot;&#xd;
+	&quot;gateway_service_url&quot;:&quot;https://${APIM_ENDPOINT}/api/orgs/${PRV_ORG_NAME}/gateway-services/${GATEWAY_SERVICE_NAME}&quot;&#xd;
 }</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
@@ -971,7 +971,7 @@ draft_api:&#xd;
               <stringProp name="HTTPSampler.port">${SERVER_PORT}</stringProp>
               <stringProp name="HTTPSampler.protocol">https</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-              <stringProp name="HTTPSampler.path">/api/orgs/${PRV_ORG_NAME}/drafts/draft-apis?gateway_type=datapower-api-gateway</stringProp>
+              <stringProp name="HTTPSampler.path">/api/orgs/${PRV_ORG_NAME}/drafts/draft-apis</stringProp>
               <stringProp name="HTTPSampler.method">POST</stringProp>
               <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
               <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1020,7 +1020,6 @@ draft_api:&#xd;
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.value">type: draft_product&#xd;
 api_version: 2.0.0&#xd;
-id: fcc6f59e-5e04-4ad5-9b58-a82edc9fb5b7&#xd;
 name: test-product&#xd;
 version: 1.0.0&#xd;
 title: test-product&#xd;
